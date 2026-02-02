@@ -20,6 +20,9 @@ test = [
     "pytest>=9.0.2",
 ]
 
+[project.scripts]
+fastframe = "fastframe.core.management.cli:execute_from_command_line"
+
 [build-system]
 requires = ["uv_build>=0.9.27,<0.10.0"]
 build-backend = "uv_build"
