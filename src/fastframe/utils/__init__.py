@@ -1,6 +1,5 @@
-from ._compat import config, metadata
+from ._compat import metadata
 
 __all__ = [
-    "config",
     "metadata",
 ]
